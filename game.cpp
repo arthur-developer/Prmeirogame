@@ -267,6 +267,8 @@ int main(int argc, char* args[]){
 
     //ANIMAÇÃO
     SDL_GL_SwapBuffers();
+    
+    //ESSA PARTE É UMA GAMBIARRA PARA DEIXAR O MOVIMENTO DO INIMIGO MAIS ALEATORIA
     inimigoy += 0,1;
 }
   SDL_Quit();
